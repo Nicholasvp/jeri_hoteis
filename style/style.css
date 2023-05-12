@@ -1,3 +1,11 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+}
 .navbar {
     background-color: #FFFFFF;
     box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
@@ -44,7 +52,7 @@
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 200;
-    font-size: 128px;
+    font-size: calc(24px + 5.5vw);
     line-height: 190px;
     text-align: center;
     text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
@@ -85,7 +93,8 @@
   
   .box {
     box-sizing: border-box;
-    width: auto;
+    max-width: 950px;
+    min-width: 250px;
     height: auto;
     border: 1px solid #000000;
     box-shadow: 6px 6px 4px 4px rgba(0, 0, 0, 0.4);
@@ -98,6 +107,8 @@
   
   .box-side{
     height: 100%;
+    max-width: 200px;
+    text-align: left;
   }
   #form-card{
     font-family: 'Oswald';
@@ -105,11 +116,9 @@
     font-weight: 400;
     font-size: 24px;
     display: flex;
-    height: 100%;
-    width: 100%;
-    text-align: start;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 8vw;
+    gap: 3rem;
   }
   label{
     margin: auto;
@@ -169,6 +178,7 @@
 .ficha {
 
     display: flex;
+    margin: auto;
     gap: 28px;
     width: 446px;
     align-items: center;
@@ -189,9 +199,6 @@
     width: 90px;
     height: 90px;
 
-
-
-
 }
 
 
@@ -208,8 +215,10 @@
 #container {
     margin: auto;
     text-align: center;
-    min-width: 665px;
-    max-width: min-content;
+    max-width: max-content;
+}
+#container p {
+  width: calc(150px + 50vw);
 }
 
 #container2 h2 {
@@ -230,13 +239,11 @@
 /*CSS da segunda parte */
 
 #cards {
-    margin-top: 40px;
-    max-width: 1140px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-
-
+  margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 1200px;
+   justify-content: center;
 }
 
 .card {
@@ -251,4 +258,24 @@
     padding: 20px;
 
 
+}
+
+/* Contato */
+#contato {
+  margin: 0;
+  height: 250px;
+  
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Anderps_067.JPG);
+  background-position: 100%;
+  
+}
+#contato div {
+  margin: 50px;
+  text-align: right;
+  color: white;
+  font-size: 24px;
+  padding-top: 50px;
+}
+#contato div p {
+  font-family: 'Oswald';
 }

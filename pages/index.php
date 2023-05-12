@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="../style/style.css">
     <!-- Fonte -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
   
     
 
@@ -21,7 +21,7 @@
 <body>
     
 <body>
-    font-family: 'Noto Sans', sans-serif;
+    
     <!-- Header com logo e menu -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top h4">
         <div class="container">
@@ -175,7 +175,7 @@
 
         
     <section id="reserva">
-        <img src="../assets/barra.svg" alt="Imagem SVG" id="line-reserva" />
+        <div id="linha"></div>
         <div id="container-reserva">
             <h1 id="reserva-titulo">RESERVE JÁ !</h1>
             <div class="box">
@@ -205,6 +205,13 @@
             </div>
         </div>
     </section>
+    <footer id="contato">
+        <div>
+            <p>Telefone: 98877-7788</p>
+            <p>Email: jeri@hoteis.com</p>
+            <p>Endereço: Jericoara</p>
+        </div>
+    </footer>
 	<script>
 		function createMessage() {
 			// Captura valores
