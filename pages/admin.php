@@ -38,7 +38,7 @@
           <div class="card-body p-5 text-center">
 
             <div class="mb-md-5 mt-md-4 pb-5">
-                <img src="../assets/logo_jeri_hoteis.svg" alt="" style="width: 30px">
+                <img src="../assets/logo.svg" alt="" style="width: 30px">
               <h2 class="fw-bold mb-2 text-uppercase">Jeri Hoteis</h2>
               <p class="text-white-50 mb-5">Please enter your login and password!</p>
 
