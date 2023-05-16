@@ -209,7 +209,7 @@
         <div>
             <p>Telefone: 98877-7788</p>
             <p>Email: jeri@hoteis.com</p>
-            <p>Endereço: Jericoara</p>
+            <p>Endereço: Jericoacoara</p>
         </div>
     </footer>
 	<script>
